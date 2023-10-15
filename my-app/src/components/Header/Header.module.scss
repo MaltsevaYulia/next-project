@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+
+ > a {
+
+        color: #fff;
+        margin: 0 10px;
+        padding: 20px 0;
+        transition: color .4s ease-in-out;
+
+        &:hover,
+        &.active {
+            color: #c353c3;
+        }
+    } 
+}
+
+// .header a {
+//   color: #fff;
+//   margin: 0 10px;
+//   padding: 20px 0;
+//   transition: color 0.4s ease-in-out;
+// }
+
+// .header a:hover,
+// .header .active {
+//   color: #c353c3;
+// }
