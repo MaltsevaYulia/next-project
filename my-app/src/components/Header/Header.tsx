@@ -12,6 +12,7 @@ const Header: FC = () => {
         Home
       </Link>
       <Link href="/about">About</Link>
+      <div>This is test deploy</div>
     </header>
   );
 };
